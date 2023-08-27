@@ -33,3 +33,18 @@ git push will finally push this repository to github
 git pull will pull the repository, let's say you're working on a different machine. 
 git rm --cache filename can be used to 'unstage' a file that was previously added to staging. 
 
+### Commit history, logging ###
+
+git log can be used to see commit history, logs 
+
+### View remote branches from Github ###
+
+git remote -v it'll not work if you've not connected git to Github 
+
+### Add a remote branch to git ###
+
+git remote add origin URL_GOES_HERE
+
+### Push from git to Github ###
+
+git push -u origin master URL_GOES_HERE
