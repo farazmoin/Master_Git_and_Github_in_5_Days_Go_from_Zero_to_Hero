@@ -41,7 +41,7 @@ git log can be used to see commit history, logs
 
 git remote -v it'll not work if you've not connected git to Github 
 
-### Add/Remove a remote branch to git ###
+### Add/Remove a remote branch to/from git ###
 
 git remote add origin URL_GOES_HERE
 git remote remove origin
