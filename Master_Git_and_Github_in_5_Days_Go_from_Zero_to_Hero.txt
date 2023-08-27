@@ -28,8 +28,8 @@ git clone pat@repourl
 ### What does git add, commit, and push does? ###
 
 git add filename adds the file from the working directory to the staging area
-git commit -m 'message' will commit this file from the staging area to repository 
-git push will finally push this repository to github
+git commit -m 'message' will commit this file from the staging area to local repository 
+git push will finally push this repository to github or remote repository. 
 git pull will pull the repository, let's say you're working on a different machine. 
 git rm --cache filename can be used to 'unstage' a file that was previously added to staging. 
 
