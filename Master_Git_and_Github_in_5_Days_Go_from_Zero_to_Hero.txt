@@ -60,3 +60,4 @@ git pull will pull the modified files from the remote to local repository
 git checkout origin/master will allow to see the remote repository without affecting the local one. You need to git fetch first though 
 git switch master allows to go back to local repository view 
 
+### This summary covers up to day 2. ###
