@@ -1,4 +1,4 @@
-Summary of the course 
+Getting started with Git and Github
 
 ### Github Configuration ###
 
@@ -49,4 +49,15 @@ git remote remove origin
 ### Push from git to Github ###
 
 git push -u origin master PAT@URL_GOES_HERE
+
+### git fetch and pull ###
+
+git fetch will fetch only the logs, commit history. 
+git pull will pull the modified files from the remote to local repository 
+
+### git checkout, switch ###
+
+git checkout origin/master will allow to see the remote repository without affecting the local one. You need to git fetch first though 
+git switch master allows to go back to local repository view 
+
 
